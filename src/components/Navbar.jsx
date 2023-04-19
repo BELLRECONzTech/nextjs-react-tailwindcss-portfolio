@@ -4,6 +4,7 @@ import Link from 'next/link'
 import {AiOutlineClose , AiOutlineMenu , AiOutlineMail , AiFillYoutube} from 'react-icons/ai'
 import {FaFacebookSquare , FaGithub} from 'react-icons/fa'
 import { useRouter } from 'next/router'
+import logobell  from '/public/assets/logobell.png'
 
 
 
@@ -56,7 +57,8 @@ const Navbar = () => {
     ? 'fixed w-full h-20 shadow-xl z-[100]' 
     : 'fixed w-full h-20  z-[100]'}>
       <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'  >
-        <Link href='/#home'><Image className='' src={"/../public/assets/logobell.png"}
+        <Link href='/#home'>
+          <Image className='' src={logobell}
           alt="logo" 
           width='200'
           height='50' 
