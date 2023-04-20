@@ -20,7 +20,7 @@ const Contract = () => {
                   <div className='lg:p-4 h-full '>
                     <div>
                         <Image className='rounded-xl hover:scale-105 ease-in duration-300' 
-                        src='/public/assets/contract.jpg'
+                        src='/contract.jpg'
                         alt='/'
                         width='800'
                         height='100'

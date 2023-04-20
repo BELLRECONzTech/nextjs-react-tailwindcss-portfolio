@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import burgurreact from '/public/assets/burgurreact.png'
+import burgurreact from '/public/burgurreact.png'
 import {RiRadioButtonFill} from 'react-icons/ri'
 import Link from 'next/link'
 

@@ -1,11 +1,11 @@
 import React from 'react'
 import Image from 'next/image'
-import propertyImg from '/public/assets/propertyImg.png'
+import propertyImg from '/public/propertyImg.png'
 import Link from 'next/link'
 import ProjectsItem from './ProjectsItem'
-import property2Img from '/public/assets/property2Img.png'
-import burgurreact from '/public/assets/burgurreact.png'
-import firstreactredux from '/public/assets/firstreactredux.png'
+import property2Img from '/public/property2Img.png'
+import burgurreact from '/public/burgurreact.png'
+import firstreactredux from '/public/firstreactredux.png'
 
 const Project = () => {
   return (

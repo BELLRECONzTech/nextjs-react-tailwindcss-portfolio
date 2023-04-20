@@ -4,7 +4,7 @@ import Link from 'next/link'
 import {AiOutlineClose , AiOutlineMenu , AiOutlineMail , AiFillYoutube} from 'react-icons/ai'
 import {FaFacebookSquare , FaGithub} from 'react-icons/fa'
 import { useRouter } from 'next/router'
-import logobell  from '/public/assets/logobell.png'
+import logobell  from '/public/logobell.png'
 
 
 

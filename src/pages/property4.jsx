@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import firstreactredux from '/public/assets/firstreactredux.png'
+import firstreactredux from '/public/firstreactredux.png'
 import {RiRadioButtonFill} from 'react-icons/ri'
 import Link from 'next/link'
 
