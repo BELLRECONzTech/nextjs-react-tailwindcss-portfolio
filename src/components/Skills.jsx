@@ -1,5 +1,14 @@
 import React from 'react'
 import Image from 'next/image'
+import htmlLogo from '/public/assets/htmllogo.png'
+import cssLogo from '/public/assets/csslogo.png'
+import javasciptLogo from '/public/assets/javasciptlogo.png'
+import csstailwindLogo from '/public/assets/tailwindcss.png'
+import reactLogo from '/public/assets/react.png'
+import nextjsLogo from '/public/assets/Next.js.png'
+import graphicLogo from '/public/assets/adob.png'
+import githubLogo from '/public/assets/githublogo.png'
+
 
 const Skills = () => {
   return (
@@ -14,7 +23,7 @@ const Skills = () => {
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className=' m-auto'>
                             <Image 
-                            src="/../public/assets/htmllogo.png" 
+                            src={htmlLogo} 
                             alt='/'
                             width='100'
                             height='100'/>
@@ -30,7 +39,7 @@ const Skills = () => {
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className=' m-auto'>
                             <Image 
-                            src="/../public/assets/csslogo.png" 
+                            src={cssLogo}
                             alt='/'
                             width='70'
                             height='100'/>
@@ -46,7 +55,7 @@ const Skills = () => {
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className=' m-auto'>
                             <Image 
-                            src="/../public/assets/javasciptlogo.png" 
+                            src={javasciptLogo} 
                             alt='/'
                             width='100'
                             height='100'/>
@@ -62,7 +71,7 @@ const Skills = () => {
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className=' m-auto py-4'>
                             <Image 
-                            src="/../public/assets/tailwindcss.png" 
+                            src={csstailwindLogo} 
                             alt='/'
                             width='100'
                             height='100'/>
@@ -78,7 +87,7 @@ const Skills = () => {
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className=' m-auto'>
                             <Image 
-                            src="/../public/assets/react.png" 
+                            src={reactLogo}
                             alt='/'
                             width='100'
                             height='100'/>
@@ -94,7 +103,7 @@ const Skills = () => {
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className=' m-auto py-4'>
                             <Image 
-                            src="/../public/assets/Next.js.png" 
+                            src={nextjsLogo} 
                             alt='/'
                             width='100'
                             height='100'/>
@@ -110,7 +119,7 @@ const Skills = () => {
                     <div className='grid grid-cols-2 gap-4 justify-center items-center '>
                         <div className=' m-auto py-4'>
                             <Image 
-                            src="/../public/assets/adob.png" 
+                            src={graphicLogo}
                             alt='/'
                             width='100'
                             height='100'/>
@@ -126,7 +135,7 @@ const Skills = () => {
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className=' m-auto'>
                             <Image 
-                            src="/../public/assets/githublogo.png" 
+                            src={githubLogo}
                             alt='/'
                             width='100'
                             height='100'/>
