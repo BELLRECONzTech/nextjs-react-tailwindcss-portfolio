@@ -1,7 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
-import proImg from '/public/assets/pro.JPG'
 
 const About = () => {
   return (
@@ -19,7 +18,7 @@ const About = () => {
             </div>
             <div className='w-full m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
                 <Image className='rounded-xl' 
-                src={proImg}
+                src='/public/assets/pro.JPG'
                 alt="logo" 
                 width='800'
                 height='800'  />

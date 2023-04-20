@@ -4,7 +4,6 @@ import React, { useState } from 'react'
 import {AiOutlineMail, AiFillYoutube} from 'react-icons/ai'
 import {FaFacebookSquare, FaGithub} from 'react-icons/fa'
 import {HiOutlineChevronDoubleUp} from 'react-icons/hi'
-import conImg from '/public/assets/contract.jpg'
 
 const Contract = () => {
 
@@ -21,7 +20,7 @@ const Contract = () => {
                   <div className='lg:p-4 h-full '>
                     <div>
                         <Image className='rounded-xl hover:scale-105 ease-in duration-300' 
-                        src={conImg} 
+                        src='/public/assets/contract.jpg'
                         alt='/'
                         width='800'
                         height='100'

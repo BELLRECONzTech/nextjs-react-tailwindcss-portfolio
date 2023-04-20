@@ -1,14 +1,5 @@
 import React from 'react'
 import Image from 'next/image'
-import htmlLogo from '/public/assets/htmllogo.png'
-import cssLogo from '/public/assets/csslogo.png'
-import jsimgLogo from '/public/assets/javasciptlogo.png'
-import cssimgLogo from '/public/assets/tailwindcss.png'
-import reactLogo from '/public/assets/react.png'
-import jsLogo from '/public/assets/Next.js.png'
-import graphicLogo from '/public/assets/adob.png'
-import githubLogo from '/public/assets/githublogo.png'
-
 
 const Skills = () => {
   return (
@@ -23,7 +14,7 @@ const Skills = () => {
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className=' m-auto'>
                             <Image 
-                            src={htmlLogo} 
+                            src='/public/assets/htmllogo.png'
                             alt='/'
                             width='100'
                             height='100'/>
@@ -39,7 +30,7 @@ const Skills = () => {
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className=' m-auto'>
                             <Image 
-                            src={jsLogo}
+                            src='/public/assets/csslogo.png'
                             alt='/'
                             width='70'
                             height='100'/>
@@ -55,7 +46,7 @@ const Skills = () => {
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className=' m-auto'>
                             <Image 
-                            src={jsimgLogo} 
+                            src='/public/assets/javasciptlogo.png'
                             alt='/'
                             width='100'
                             height='100'/>
@@ -71,7 +62,7 @@ const Skills = () => {
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className=' m-auto py-4'>
                             <Image 
-                            src={cssimgLogo} 
+                            src='/public/assets/tailwindcss.png'
                             alt='/'
                             width='100'
                             height='100'/>
@@ -87,7 +78,7 @@ const Skills = () => {
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className=' m-auto'>
                             <Image 
-                            src={reactLogo}
+                            src='/public/assets/react.png'
                             alt='/'
                             width='100'
                             height='100'/>
@@ -103,7 +94,7 @@ const Skills = () => {
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className=' m-auto py-4'>
                             <Image 
-                            src= {jsLogo} 
+                            src= '/public/assets/Next.js.png' 
                             alt='/'
                             width='100'
                             height='100'/>
@@ -119,7 +110,7 @@ const Skills = () => {
                     <div className='grid grid-cols-2 gap-4 justify-center items-center '>
                         <div className=' m-auto py-4'>
                             <Image 
-                            src= {graphicLogo}
+                            src= '/public/assets/adob.png'
                             alt='/'
                             width='100'
                             height='100'/>
@@ -135,7 +126,7 @@ const Skills = () => {
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className=' m-auto'>
                             <Image 
-                            src={githubLogo}
+                            src='/public/assets/githublogo.png'
                             alt='/'
                             width='100'
                             height='100'/>
