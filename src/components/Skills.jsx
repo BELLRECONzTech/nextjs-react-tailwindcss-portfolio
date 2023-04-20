@@ -2,10 +2,10 @@ import React from 'react'
 import Image from 'next/image'
 import htmlLogo from '/public/assets/htmllogo.png'
 import cssLogo from '/public/assets/csslogo.png'
-import javasciptLogo from '/public/assets/javasciptlogo.png'
-import csstailwindLogo from '/public/assets/tailwindcss.png'
+import jsimgLogo from '/public/assets/javasciptlogo.png'
+import cssimgLogo from '/public/assets/tailwindcss.png'
 import reactLogo from '/public/assets/react.png'
-import nextjsLogo from '/public/assets/Next.js.png'
+import jsLogo from '/public/assets/Next.js.png'
 import graphicLogo from '/public/assets/adob.png'
 import githubLogo from '/public/assets/githublogo.png'
 
@@ -39,7 +39,7 @@ const Skills = () => {
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className=' m-auto'>
                             <Image 
-                            src={cssLogo}
+                            src={jsLogo}
                             alt='/'
                             width='70'
                             height='100'/>
@@ -55,7 +55,7 @@ const Skills = () => {
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className=' m-auto'>
                             <Image 
-                            src={javasciptLogo} 
+                            src={jsimgLogo} 
                             alt='/'
                             width='100'
                             height='100'/>
@@ -71,7 +71,7 @@ const Skills = () => {
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className=' m-auto py-4'>
                             <Image 
-                            src={csstailwindLogo} 
+                            src={cssimgLogo} 
                             alt='/'
                             width='100'
                             height='100'/>
@@ -103,7 +103,7 @@ const Skills = () => {
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className=' m-auto py-4'>
                             <Image 
-                            src={nextjsLogo} 
+                            src= {jsLogo} 
                             alt='/'
                             width='100'
                             height='100'/>
@@ -119,7 +119,7 @@ const Skills = () => {
                     <div className='grid grid-cols-2 gap-4 justify-center items-center '>
                         <div className=' m-auto py-4'>
                             <Image 
-                            src={graphicLogo}
+                            src= {graphicLogo}
                             alt='/'
                             width='100'
                             height='100'/>
