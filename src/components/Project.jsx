@@ -16,11 +16,11 @@ const Project = () => {
                 <div className='grid md:grid-cols-2 gap-8'>
 
                     <ProjectsItem 
-                    title='Private Fantasy' 
+                    title='Private Fantasy Travel Website' 
                     backgroundImg={propertyImg} 
                     projectUrl='/property'/>
                     <ProjectsItem 
-                    title='Portfolio' 
+                    title='Portfolio Website' 
                     backgroundImg={property2Img} 
                     projectUrl='/property2'/>
                     <ProjectsItem 
@@ -28,7 +28,7 @@ const Project = () => {
                     backgroundImg={burgurreact} 
                     projectUrl='/property3'/>
                     <ProjectsItem 
-                    title='Movies Redux' 
+                    title='Redux Movie Website OMDb api' 
                     backgroundImg={firstreactredux} 
                     projectUrl='/property4'/>
 
